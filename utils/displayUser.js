@@ -1,6 +1,7 @@
 const container = document.querySelector(".container");
 
 const displayUser = (followers) => {
+  //Pour parcourir mon tableau de followers et en ressortir les infos
   const newUsers = followers
     .map((follower) => {
       const { avatar_url, html_url, login } = follower;

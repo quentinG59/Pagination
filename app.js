@@ -8,7 +8,7 @@ const btnContainer = document.querySelector(".btn-container");
 
 let index = 0;
 let pages = [];
-
+// Initialisation de de l'index a 0 pour afficher la page 1, chagement de l'index selon le buttons sur lequel je click.
 const setupUI = () => {
   displayUser(pages[index]);
   displayButtons(btnContainer, pages, index);
